@@ -8,10 +8,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home"
+                <li class="nav-item"><a class="nav-link" href="/"
                         style="color: var(--pure-white) !important; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin: 0 10px;">Home</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#about"
+                <li class="nav-item"><a class="nav-link" href="/about"
                         style="color: var(--pure-white) !important; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin: 0 10px;">About</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#services"

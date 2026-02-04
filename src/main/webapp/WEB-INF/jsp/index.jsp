@@ -54,7 +54,7 @@
                 </div>
             </section>
 
-            <!-- About Section -->
+            <!-- About Section (Teaser) -->
             <section id="about" style="padding: 120px 0;">
                 <div class="container">
                     <div class="row align-items-center">
@@ -66,25 +66,15 @@
                         </div>
                         <div class="col-lg-6 reveal" style="padding-left: 50px;">
                             <h2 class="section-title text-start mb-4">The Royal Standard</h2>
-                            <p class="lead" style="color: var(--primary-maroon); font-weight: 700;">Artistry. Precision.
-                                Legacy.</p>
-                            <p>At Royal Events, we don't just plan events; we curate atmospheres. Every detail is
-                                meticulously chosen to reflect your unique persona, from the thread count of the linens
-                                to the cadence of the evening.</p>
-                            <div class="row mt-5">
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">15Y</h2>
-                                    <p class="small text-uppercase">Heritage</p>
-                                </div>
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">500+</h2>
-                                    <p class="small text-uppercase">Events</p>
-                                </div>
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">100%</h2>
-                                    <p class="small text-uppercase">Bespoke</p>
-                                </div>
-                            </div>
+                            <p class="lead" style="color: var(--primary-maroon); font-weight: 700;">Creativity.
+                                Precision. Heart.</p>
+                            <p class="mb-4">We are a passionate event management team that turns ideas into
+                                unforgettable experiences. From intimate celebrations to large-scale corporate
+                                gatherings, we plan, design, and execute events with creativity, precision, and heart.
+                            </p>
+
+                            <a href="/about" class="btn btn-outline-dark"
+                                style="border-radius: 0; letter-spacing: 2px;">DISCOVER MORE</a>
                         </div>
                     </div>
                 </div>
