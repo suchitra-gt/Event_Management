@@ -37,8 +37,12 @@
 
             <!-- Hero Section -->
             <section id="home" class="hero">
-                <video autoplay muted loop playsinline class="hero-video">
-                    <source src="${pageContext.request.contextPath}/videos/Indian_Faces_Video_Generation.mp4" type="video/mp4">
+
+                <video autoplay muted loop playsinline class="hero-video"
+                    poster="${pageContext.request.contextPath}/images/hero-poster.jpg">
+                    <source src="${pageContext.request.contextPath}/videos/Indian_Faces_Video_Generation.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
                 </video>
                 <div class="hero-overlay"></div>
                 <div class="container text-center">
@@ -58,7 +62,7 @@
                 </div>
             </section>
 
-            <!-- About Section -->
+            <!-- About Section (Teaser) -->
             <section id="about" style="padding: 120px 0;">
                 <div class="container">
                     <div class="row align-items-center">
@@ -70,25 +74,15 @@
                         </div>
                         <div class="col-lg-6 reveal" style="padding-left: 50px;">
                             <h2 class="section-title text-start mb-4">The Royal Standard</h2>
-                            <p class="lead" style="color: var(--primary-maroon); font-weight: 700;">Artistry. Precision.
-                                Legacy.</p>
-                            <p>At Royal Events, we don't just plan events; we curate atmospheres. Every detail is
-                                meticulously chosen to reflect your unique persona, from the thread count of the linens
-                                to the cadence of the evening.</p>
-                            <div class="row mt-5">
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">15Y</h2>
-                                    <p class="small text-uppercase">Heritage</p>
-                                </div>
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">500+</h2>
-                                    <p class="small text-uppercase">Events</p>
-                                </div>
-                                <div class="col-4">
-                                    <h2 style="color: var(--primary-maroon); font-weight: 900;">100%</h2>
-                                    <p class="small text-uppercase">Bespoke</p>
-                                </div>
-                            </div>
+                            <p class="lead" style="color: var(--primary-maroon); font-weight: 700;">Creativity.
+                                Precision. Heart.</p>
+                            <p class="mb-4">We are a passionate event management team that turns ideas into
+                                unforgettable experiences. From intimate celebrations to large-scale corporate
+                                gatherings, we plan, design, and execute events with creativity, precision, and heart.
+                            </p>
+
+                            <a href="/about" class="btn btn-outline-dark"
+                                style="border-radius: 0; letter-spacing: 2px;">DISCOVER MORE</a>
                         </div>
                     </div>
                 </div>
@@ -162,6 +156,41 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Preview Section -->
+            <section id="gallery" style="background-color: var(--pure-white);">
+                <div class="container text-center">
+                    <h2 class="section-title">Visual Anthology</h2>
+                    <p class="mb-5 lead text-muted">A glimpse into our world of bespoke elegance.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 1"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 2"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 3"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <a href="${pageContext.request.contextPath}/gallery" class="btn btn-primary-custom">View Full
+                            Gallery</a>
                     </div>
                 </div>
             </section>

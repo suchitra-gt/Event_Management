@@ -15,4 +15,14 @@ public class HomeController {
     public String terms() {
         return "terms";
     }
+
+    @GetMapping("/about")
+    public String about() {
+        return "about";
+    }
+
+    @GetMapping("/gallery")
+    public String gallery() {
+        return "gallery";
+    }
 }

@@ -8,10 +8,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home"
+                <li class="nav-item"><a class="nav-link" href="/"
                         style="color: var(--pure-white) !important; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin: 0 10px;">Home</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#about"
+                <li class="nav-item"><a class="nav-link" href="/about"
                         style="color: var(--pure-white) !important; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin: 0 10px;">About</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#services"
@@ -24,6 +24,133 @@
                         style="color: var(--pure-white) !important; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; margin: 0 10px;">Contact</a>
                 </li>
             </ul>
+        <div class="container">
+                <a class="navbar-brand" href="#home"
+                        style="color: var(--accent-gold) !important; font-weight: 900; font-size: 1.8rem; letter-spacing: 2px;">ROYAL
+                        EVENTS</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav">
+                        <span class="fas fa-bars" style="color: var(--accent-gold);"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto align-items-center">
+                                <!-- align-items-center ensures vertical centering -->
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#home">Home</a>
+                                </li>
+
+                                <!-- Mega Menu Trigger -->
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Discover <i class="fas fa-chevron-down ms-1"
+                                                        style="font-size: 0.7rem;"></i></a>
+                                        <div class="mega-menu">
+                                                <div class="container">
+                                                        <div class="row">
+                                                                <div class="col-md-3 mega-column">
+                                                                        <h5>Company</h5>
+                                                                        <ul>
+                                                                                <li><a href="#about">About Us</a></li>
+                                                                                <li><a href="careers">Careers</a></li>
+                                                                                <li><a href="#contact">Contact Page</a>
+                                                                                </li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="col-md-3 mega-column">
+                                                                        <h5>Services</h5>
+                                                                        <ul>
+                                                                                <li><a href="#services">Our Services</a>
+                                                                                </li>
+                                                                                <li><a href="features">Features</a></li>
+                                                                                <li><a href="#blogs">Blogs &
+                                                                                                Insights</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="col-md-3 mega-column">
+                                                                        <h5>Legal</h5>
+                                                                        <ul>
+                                                                                <li><a href="policies">Policies</a></li>
+                                                                                <li><a href="terms">Terms &
+                                                                                                Conditions</a></li>
+                                                                                <li><a href="privacy">Privacy
+                                                                                                Protocol</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="col-md-3 mega-column">
+                                                                        <div class="text-center">
+                                                                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=600"
+                                                                                        class="mega-img"
+                                                                                        alt="Menu Feature">
+                                                                                <p class="small text-muted mt-2">Plan
+                                                                                        your legacy with Royal Events.
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </li>
+
+                                <!-- Events Mega Menu -->
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Events <i class="fas fa-chevron-down ms-1"
+                                                        style="font-size: 0.7rem;"></i></a>
+                                        <div class="mega-menu">
+                                                <div class="container">
+                                                        <div class="row">
+                                                                <div class="col-md-3 mega-column">
+                                                                        <h5>Celebrations</h5>
+                                                                        <ul>
+                                                                                <li><a href="events/wedding">Wedding
+                                                                                                Event</a></li>
+                                                                                <li><a href="events/birthday">Birthday
+                                                                                                Event</a></li>
+                                                                                <li><a href="events/proposal">Proposal
+                                                                                                Event</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="col-md-3 mega-column">
+                                                                        <h5>Gatherings</h5>
+                                                                        <ul>
+                                                                                <li><a href="events/date-night">Date
+                                                                                                Night Event</a></li>
+                                                                                <li><a href="events/corporate">Corporate
+                                                                                                Event</a></li>
+                                                                                <li><a href="events/promotion">Promotion
+                                                                                                Event</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="col-md-6 mega-column">
+                                                                        <div class="text-center">
+                                                                                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+                                                                                        class="mega-img"
+                                                                                        alt="Events Feature"
+                                                                                        style="height: 150px; object-fit: cover;">
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </li>
+
+                                <!-- Gallery Link -->
+                                <li class="nav-item"><a class="nav-link"
+                                                href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+
+                                <!-- Standard Links -->
+                                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                                <!-- Auth Buttons -->
+                                <li class="nav-item ms-lg-3">
+                                        <a class="nav-link" href="login"
+                                                style="color: var(--accent-gold) !important; border: 1px solid var(--accent-gold); padding: 8px 20px !important; margin: 0 5px; border-radius: 0;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="register"
+                                                style="background: var(--accent-gold); color: var(--primary-maroon) !important; padding: 8px 20px !important; margin: 0 5px; border-radius: 0;">Register</a>
+                                </li>
+                        </ul>
+                </div>
         </div>
-    </div>
 </nav>
