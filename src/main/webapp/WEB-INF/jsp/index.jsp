@@ -37,6 +37,13 @@
 
             <!-- Hero Section -->
             <section id="home" class="hero">
+                <video autoplay muted loop playsinline id="hero-video"
+                    poster="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=2070">
+                    <!-- Pexels Wedding Video Placeholder -->
+                    <source src="https://videos.pexels.com/video-files/3195866/3195866-uhd_2560_1440_25fps.mp4"
+                        type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
                 <div class="container text-center">
                     <div class="reveal">
                         <div class="d-inline-block border border-gold px-4 py-1 mb-4"
@@ -148,6 +155,41 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Preview Section -->
+            <section id="gallery" style="background-color: var(--pure-white);">
+                <div class="container text-center">
+                    <h2 class="section-title">Visual Anthology</h2>
+                    <p class="mb-5 lead text-muted">A glimpse into our world of bespoke elegance.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 1"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 2"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 3"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <a href="${pageContext.request.contextPath}/gallery" class="btn btn-primary-custom">View Full
+                            Gallery</a>
                     </div>
                 </div>
             </section>

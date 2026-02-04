@@ -13,6 +13,9 @@ public class HomeController {
 
     @GetMapping("/about")
     public String about() {
-        return "about";
+        return "about";}
+    @GetMapping("/gallery")
+    public String gallery() {
+        return "gallery";
     }
 }
