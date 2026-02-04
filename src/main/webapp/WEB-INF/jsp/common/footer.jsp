@@ -40,9 +40,9 @@
                     <li class="mb-2"><a href="#policies"
                             style="color: var(--pure-white); text-decoration: none; font-size: 0.85rem;">Privacy
                             Policy</a></li>
-                    <li class="mb-2"><a href="#terms"
-                            style="color: var(--pure-white); text-decoration: none; font-size: 0.85rem;">Terms of
-                            Service</a></li>
+                    <li class="mb-2"><a href="${pageContext.request.contextPath}/terms"
+                            style="color: var(--pure-white); text-decoration: none; font-size: 0.85rem;">Terms and
+                            Conditions</a></li>
                     <li class="mb-2"><a href="#cancellation"
                             style="color: var(--pure-white); text-decoration: none; font-size: 0.85rem;">Cancellation</a>
                     </li>

@@ -37,6 +37,10 @@
 
             <!-- Hero Section -->
             <section id="home" class="hero">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="${pageContext.request.contextPath}/videos/Indian_Faces_Video_Generation.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
                 <div class="container text-center">
                     <div class="reveal">
                         <div class="d-inline-block border border-gold px-4 py-1 mb-4"
