@@ -62,6 +62,12 @@
             .gallery-item:hover .gallery-text h5 {
                 transform: translateY(0);
             }
+
+            /* Compact Header for Gallery */
+            .gallery-header .section-title {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+            }
         </style>
     </head>
 
@@ -71,10 +77,11 @@
         <%@ include file="common/navbar.jsp" %>
 
             <!-- Page Header -->
-            <section class="gallery-header text-center" style="padding: 80px 0 40px;">
+            <section class="gallery-header text-center" style="padding: 40px 0 20px;">
                 <div class="container">
                     <h1 class="section-title">Exclusive Portfolio</h1>
-                    <p class="lead text-muted" style="max-width: 700px; margin: 0 auto;">A curated visual journey
+                    <p class="lead text-muted" style="max-width: 700px; margin: 0 auto; font-size: 1rem;">A curated
+                        visual journey
                         through our most exquisite celebrations.</p>
                 </div>
             </section>
