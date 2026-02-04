@@ -37,6 +37,14 @@
 
             <!-- Hero Section -->
             <section id="home" class="hero">
+                <video autoplay muted loop playsinline id="hero-video"
+                    poster="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=2070">
+                    <!-- Pexels Wedding Video Placeholder -->
+                    <source src="https://videos.pexels.com/video-files/3195866/3195866-uhd_2560_1440_25fps.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay"></div>
                 <div class="container text-center">
                     <div class="reveal">
                         <div class="d-inline-block border border-gold px-4 py-1 mb-4"
