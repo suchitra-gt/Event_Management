@@ -170,6 +170,41 @@
                 </div>
             </section>
 
+            <!-- Gallery Preview Section -->
+            <section id="gallery" style="background-color: var(--pure-white);">
+                <div class="container text-center">
+                    <h2 class="section-title">Visual Anthology</h2>
+                    <p class="mb-5 lead text-muted">A glimpse into our world of bespoke elegance.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 1"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 2"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 reveal">
+                            <div class="gallery-preview">
+                                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+                                    class="img-fluid" alt="Gallery Preview 3"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <a href="${pageContext.request.contextPath}/gallery" class="btn btn-primary-custom">View Full
+                            Gallery</a>
+                    </div>
+                </div>
+            </section>
+
             <!-- Contact Section -->
             <section id="contact" style="background-color: var(--bg-light);">
                 <div class="container">

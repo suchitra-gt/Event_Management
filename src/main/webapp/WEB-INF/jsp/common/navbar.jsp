@@ -107,6 +107,10 @@
                                         </div>
                                 </li>
 
+                                <!-- Gallery Link -->
+                                <li class="nav-item"><a class="nav-link"
+                                                href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+
                                 <!-- Standard Links -->
                                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
