@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-                <a class="navbar-brand" href="#home"
+                <a class="navbar-brand" href="${pageContext.request.contextPath}/"
                         style="color: var(--accent-gold) !important; font-weight: 900; font-size: 1.8rem; letter-spacing: 2px;">ROYAL
                         EVENTS</a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -11,7 +11,7 @@
                         <ul class="navbar-nav ms-auto align-items-center">
                                 <!-- align-items-center ensures vertical centering -->
                                 <li class="nav-item">
-                                        <a class="nav-link" href="#home">Home</a>
+                                        <a class="nav-link" href="${pageContext.request.contextPath}/">Home</a>
                                 </li>
 
                                 <!-- Mega Menu Trigger -->
@@ -24,29 +24,37 @@
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Company</h5>
                                                                         <ul>
-                                                                                <li><a href="#about">About Us</a></li>
-                                                                                <li><a href="careers">Careers</a></li>
-                                                                                <li><a href="#contact">Contact Page</a>
+                                                                                <li><a href="${pageContext.request.contextPath}/#about">About
+                                                                                                Us</a></li>
+                                                                                <li><a href="${pageContext.request.contextPath}/careers">Careers</a>
+                                                                                </li>
+                                                                                <li><a href="${pageContext.request.contextPath}/#contact">Contact
+                                                                                                Page</a>
                                                                                 </li>
                                                                         </ul>
                                                                 </div>
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Services</h5>
                                                                         <ul>
-                                                                                <li><a href="#services">Our Services</a>
+                                                                                <li><a href="${pageContext.request.contextPath}/#services">Our
+                                                                                                Services</a>
                                                                                 </li>
-                                                                                <li><a href="features">Features</a></li>
-                                                                                <li><a href="#blogs">Blogs &
+                                                                                <li><a href="${pageContext.request.contextPath}/features">Features</a>
+                                                                                </li>
+                                                                                <li><a href="${pageContext.request.contextPath}/#blogs">Blogs
+                                                                                                &
                                                                                                 Insights</a></li>
                                                                         </ul>
                                                                 </div>
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Legal</h5>
                                                                         <ul>
-                                                                                <li><a href="policies">Policies</a></li>
-                                                                                <li><a href="terms">Terms &
+                                                                                <li><a href="${pageContext.request.contextPath}/policies">Policies</a>
+                                                                                </li>
+                                                                                <li><a href="${pageContext.request.contextPath}/terms">Terms
+                                                                                                &
                                                                                                 Conditions</a></li>
-                                                                                <li><a href="privacy">Privacy
+                                                                                <li><a href="${pageContext.request.contextPath}/privacy">Privacy
                                                                                                 Protocol</a></li>
                                                                         </ul>
                                                                 </div>
@@ -75,22 +83,22 @@
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Celebrations</h5>
                                                                         <ul>
-                                                                                <li><a href="events/wedding">Wedding
+                                                                                <li><a href="${pageContext.request.contextPath}/events/wedding">Wedding
                                                                                                 Event</a></li>
-                                                                                <li><a href="events/birthday">Birthday
+                                                                                <li><a href="${pageContext.request.contextPath}/events/birthday">Birthday
                                                                                                 Event</a></li>
-                                                                                <li><a href="events/proposal">Proposal
+                                                                                <li><a href="${pageContext.request.contextPath}/events/proposal">Proposal
                                                                                                 Event</a></li>
                                                                         </ul>
                                                                 </div>
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Gatherings</h5>
                                                                         <ul>
-                                                                                <li><a href="events/date-night">Date
+                                                                                <li><a href="${pageContext.request.contextPath}/events/date-night">Date
                                                                                                 Night Event</a></li>
-                                                                                <li><a href="events/corporate">Corporate
+                                                                                <li><a href="${pageContext.request.contextPath}/events/corporate">Corporate
                                                                                                 Event</a></li>
-                                                                                <li><a href="events/promotion">Promotion
+                                                                                <li><a href="${pageContext.request.contextPath}/events/promotion">Promotion
                                                                                                 Event</a></li>
                                                                         </ul>
                                                                 </div>
@@ -112,17 +120,20 @@
                                                 href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
 
                                 <!-- Standard Links -->
-                                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                                href="${pageContext.request.contextPath}/#services">Services</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                                href="${pageContext.request.contextPath}/#blogs">Blogs</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                                href="${pageContext.request.contextPath}/#contact">Contact</a></li>
 
                                 <!-- Auth Buttons -->
                                 <li class="nav-item ms-lg-3">
-                                        <a class="nav-link" href="login"
+                                        <a class="nav-link" href="${pageContext.request.contextPath}/login"
                                                 style="color: var(--accent-gold) !important; border: 1px solid var(--accent-gold); padding: 8px 20px !important; margin: 0 5px; border-radius: 0;">Login</a>
                                 </li>
                                 <li class="nav-item">
-                                        <a class="nav-link" href="register"
+                                        <a class="nav-link" href="${pageContext.request.contextPath}/register"
                                                 style="background: var(--accent-gold); color: var(--primary-maroon) !important; padding: 8px 20px !important; margin: 0 5px; border-radius: 0;">Register</a>
                                 </li>
                         </ul>
