@@ -251,6 +251,24 @@ h3,
     box-shadow: 0 5px 20px rgba(212, 175, 55, 0.3);
 }
 
+.btn-outline-custom {
+    border: 1px solid var(--primary-maroon);
+    color: var(--primary-maroon);
+    padding: 10px 25px;
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    transition: var(--transition);
+}
+
+.btn-outline-custom:hover {
+    background: var(--primary-maroon);
+    color: var(--accent-gold);
+    border-color: var(--accent-gold);
+}
+
 /* Cards */
 .custom-card {
     background: var(--pure-white);
@@ -259,6 +277,9 @@ h3,
     padding: 40px;
     transition: var(--transition);
     box-shadow: var(--luxury-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .custom-card:hover {
