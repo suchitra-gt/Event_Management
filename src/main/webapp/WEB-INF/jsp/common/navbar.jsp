@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top">
+
         <div class="container">
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/"
                         style="color: var(--accent-gold) !important; font-weight: 900; font-size: 1.8rem; letter-spacing: 2px;">ROYAL
@@ -11,7 +12,13 @@
                         <ul class="navbar-nav ms-auto align-items-center">
                                 <!-- align-items-center ensures vertical centering -->
                                 <li class="nav-item">
+<<<<<<< HEAD
                                         <a class="nav-link" href="${pageContext.request.contextPath}/">Home</a>
+=======
+                                        <a class="nav-link" href="#home">Home</a>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="${pageContext.request.contextPath}/about">About</a>
+>>>>>>> 8e1213a3ad49e2f2f7f24016440260576a522db2
                                 </li>
 
                                 <!-- Mega Menu Trigger -->
@@ -24,12 +31,19 @@
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Company</h5>
                                                                         <ul>
+<<<<<<< HEAD
                                                                                 <li><a href="${pageContext.request.contextPath}/#about">About
                                                                                                 Us</a></li>
                                                                                 <li><a href="${pageContext.request.contextPath}/careers">Careers</a>
                                                                                 </li>
                                                                                 <li><a href="${pageContext.request.contextPath}/#contact">Contact
                                                                                                 Page</a>
+=======
+                                                                                <li><a href="${pageContext.request.contextPath}/about">About
+                                                                                                Us</a></li>
+                                                                                <li><a href="careers">Careers</a></li>
+                                                                                <li><a href="#contact">Contact Page</a>
+>>>>>>> 8e1213a3ad49e2f2f7f24016440260576a522db2
                                                                                 </li>
                                                                         </ul>
                                                                 </div>
