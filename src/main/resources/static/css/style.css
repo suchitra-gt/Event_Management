@@ -86,19 +86,23 @@ h3,
 .navbar-brand {
     color: var(--accent-gold) !important;
     font-weight: 900;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    /* Slightly smaller */
     letter-spacing: 2px;
-    padding: 20px 0;
+    padding: 10px 0;
+    /* Reduced padding */
 }
 
 .nav-link {
     color: var(--pure-white) !important;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    /* Slightly smaller */
     letter-spacing: 1px;
     margin: 0 5px;
-    padding: 25px 15px !important;
+    padding: 15px 10px !important;
+    /* Reduced padding */
     /* Larger click area for menu */
     transition: var(--transition);
     position: relative;

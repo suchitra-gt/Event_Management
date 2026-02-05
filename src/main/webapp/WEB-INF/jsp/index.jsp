@@ -47,12 +47,7 @@
                 <div class="hero-overlay"></div>
                 <div class="container text-center">
                     <div class="reveal">
-                        <div class="d-inline-block border border-gold px-4 py-1 mb-4"
-                            style="border-color: var(--accent-gold) !important;">
-                            <span class="text-uppercase"
-                                style="color: var(--accent-gold); letter-spacing: 5px; font-weight: 700; font-size: 0.8rem;">Established
-                                2010</span>
-                        </div>
+
                         <h1>Exquisiteness <br><span style="color: var(--accent-gold);">Redefined</span></h1>
                         <p>Creating atmospheric luxury experiences for the most discerning global clients.</p>
                         <div class="mt-5">
@@ -98,7 +93,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-crown fa-3x"></i>
                                 <h3>Wedding Event</h3>
-                                <p class="small">Crafting timeless unions with royal sophistication and bespoke wedding management.</p>
+                                <p class="small">Crafting timeless unions with royal sophistication and bespoke wedding
+                                    management.</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
@@ -107,7 +103,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-heart fa-3x"></i>
                                 <h3>Proposal Event</h3>
-                                <p class="small">Curating intimate moments and breathtaking surprises for a lifetime of "Yes".</p>
+                                <p class="small">Curating intimate moments and breathtaking surprises for a lifetime of
+                                    "Yes".</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
@@ -116,7 +113,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-moon fa-3x"></i>
                                 <h3>Date Night Event</h3>
-                                <p class="small">Sophisticated romance under the stars, meticulously planned for an unforgettable evening.</p>
+                                <p class="small">Sophisticated romance under the stars, meticulously planned for an
+                                    unforgettable evening.</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
@@ -125,7 +123,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-landmark fa-3x"></i>
                                 <h3>Corporate Event</h3>
-                                <p class="small">Strategic gala designs and high-profile gatherings that define your brand's legacy.</p>
+                                <p class="small">Strategic gala designs and high-profile gatherings that define your
+                                    brand's legacy.</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
@@ -134,7 +133,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-award fa-3x"></i>
                                 <h3>Promotion Event</h3>
-                                <p class="small">Celebrating professional milestones with grand flair and sophisticated atmospheric luxury.</p>
+                                <p class="small">Celebrating professional milestones with grand flair and sophisticated
+                                    atmospheric luxury.</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
@@ -143,7 +143,8 @@
                             <div class="custom-card h-100">
                                 <i class="fas fa-glass-cheers fa-3x"></i>
                                 <h3>Birthday Event</h3>
-                                <p class="small">Bespoke celebrations for your most cherished milestones, from golden years to first steps.</p>
+                                <p class="small">Bespoke celebrations for your most cherished milestones, from golden
+                                    years to first steps.</p>
                                 <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>

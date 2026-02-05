@@ -12,9 +12,8 @@
                         <ul class="navbar-nav ms-auto align-items-center">
                                 <!-- align-items-center ensures vertical centering -->
                                 <li class="nav-item">
-
                                         <a class="nav-link" href="${pageContext.request.contextPath}/">Home</a>
-                                        <a class="nav-link" href="#home">Home</a>
+                                </li>
                                 <li class="nav-item">
                                         <a class="nav-link" href="${pageContext.request.contextPath}/about">About</a>
                                 </li>
@@ -29,17 +28,12 @@
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Company</h5>
                                                                         <ul>
-                                                                                <li><a href="${pageContext.request.contextPath}/#about">About
+                                                                                <li><a href="${pageContext.request.contextPath}/about">About
                                                                                                 Us</a></li>
                                                                                 <li><a href="${pageContext.request.contextPath}/careers">Careers</a>
                                                                                 </li>
                                                                                 <li><a href="${pageContext.request.contextPath}/#contact">Contact
                                                                                                 Page</a>
-
-                                                                                <li><a href="${pageContext.request.contextPath}/about">About
-                                                                                                Us</a></li>
-                                                                                <li><a href="careers">Careers</a></li>
-                                                                                <li><a href="#contact">Contact Page</a>
                                                                                 </li>
                                                                         </ul>
                                                                 </div>
