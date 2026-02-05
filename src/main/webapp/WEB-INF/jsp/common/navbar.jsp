@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top">
+
         <div class="container">
                 <a class="navbar-brand" href="#home"
                         style="color: var(--accent-gold) !important; font-weight: 900; font-size: 1.8rem; letter-spacing: 2px;">ROYAL
@@ -12,6 +13,8 @@
                                 <!-- align-items-center ensures vertical centering -->
                                 <li class="nav-item">
                                         <a class="nav-link" href="#home">Home</a>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="${pageContext.request.contextPath}/about">About</a>
                                 </li>
 
                                 <!-- Mega Menu Trigger -->
@@ -24,7 +27,8 @@
                                                                 <div class="col-md-3 mega-column">
                                                                         <h5>Company</h5>
                                                                         <ul>
-                                                                                <li><a href="#about">About Us</a></li>
+                                                                                <li><a href="${pageContext.request.contextPath}/about">About
+                                                                                                Us</a></li>
                                                                                 <li><a href="careers">Careers</a></li>
                                                                                 <li><a href="#contact">Contact Page</a>
                                                                                 </li>
