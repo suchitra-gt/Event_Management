@@ -91,30 +91,60 @@
             <!-- Services Section -->
             <section id="services" style="background-color: var(--bg-light);">
                 <div class="container">
-                    <h2 class="section-title">Our Experiences</h2>
+                    <h2 class="section-title">Our Exclusive Experiences</h2>
                     <div class="row g-4 text-center">
+                        <!-- Wedding Event -->
                         <div class="col-md-4 reveal">
                             <div class="custom-card h-100">
                                 <i class="fas fa-crown fa-3x"></i>
-                                <h3>Signature Weddings</h3>
-                                <p class="small">Turning fairytales into atmospheric realities with end-to-end
-                                    management.</p>
+                                <h3>Wedding Event</h3>
+                                <p class="small">Crafting timeless unions with royal sophistication and bespoke wedding management.</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
+                        <!-- Proposal Event -->
+                        <div class="col-md-4 reveal">
+                            <div class="custom-card h-100">
+                                <i class="fas fa-heart fa-3x"></i>
+                                <h3>Proposal Event</h3>
+                                <p class="small">Curating intimate moments and breathtaking surprises for a lifetime of "Yes".</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
+                            </div>
+                        </div>
+                        <!-- Date Night Event -->
+                        <div class="col-md-4 reveal">
+                            <div class="custom-card h-100">
+                                <i class="fas fa-moon fa-3x"></i>
+                                <h3>Date Night Event</h3>
+                                <p class="small">Sophisticated romance under the stars, meticulously planned for an unforgettable evening.</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
+                            </div>
+                        </div>
+                        <!-- Corporate Event -->
                         <div class="col-md-4 reveal">
                             <div class="custom-card h-100">
                                 <i class="fas fa-landmark fa-3x"></i>
-                                <h3>Corporate Galas</h3>
-                                <p class="small">Strategic event design for high-profile business gatherings and global
-                                    brands.</p>
+                                <h3>Corporate Event</h3>
+                                <p class="small">Strategic gala designs and high-profile gatherings that define your brand's legacy.</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
+                        <!-- Promotion Event -->
+                        <div class="col-md-4 reveal">
+                            <div class="custom-card h-100">
+                                <i class="fas fa-award fa-3x"></i>
+                                <h3>Promotion Event</h3>
+                                <p class="small">Celebrating professional milestones with grand flair and sophisticated atmospheric luxury.</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
+                            </div>
+                        </div>
+                        <!-- Birthday Event -->
                         <div class="col-md-4 reveal">
                             <div class="custom-card h-100">
                                 <i class="fas fa-glass-cheers fa-3x"></i>
-                                <h3>Private Soirées</h3>
-                                <p class="small">Intimate, high-exclusive celebrations tailored for the world's most
-                                    discerning hosts.</p>
+                                <h3>Birthday Event</h3>
+                                <p class="small">Bespoke celebrations for your most cherished milestones, from golden years to first steps.</p>
+                                <a href="#contact" class="btn btn-sm btn-outline-custom mt-3">Book Now</a>
                             </div>
                         </div>
                     </div>
